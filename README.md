@@ -1,5 +1,8 @@
 [![Gem Version](https://badge.fury.io/rb/lm-logs-sdk.svg)](http://badge.fury.io/rb/lm-logs-sdk)
 # lm-logs-sdk-ruby(beta)
+Ruby SDK for sending logs to LogicMonitor
+
+`gem install lm-logs-sdk`
 
 ``` ruby
 require 'ingest'
