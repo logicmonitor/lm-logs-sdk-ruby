@@ -6,6 +6,7 @@ require 'openssl'
 require "base64"
 require 'net/http'
 require 'net/https'
+require 'ostruct'
 
  class Ingest
     def initialize(company_name, access_id, access_key)
@@ -39,6 +40,6 @@ require 'net/https'
         request['Content-type'] = "application/json"  
         request.body = body
   
-        resp = http.request(request)
+        http.request(request)
       end
  end
