@@ -2,6 +2,8 @@
 # lm-logs-sdk-ruby(beta)
 Ruby SDK for sending logs to LogicMonitor
 
+**NOTE:** This SDK was created for use by LogicMonitor-built log integrations and is not intended to be used or supported otherwise.
+
 `gem install lm-logs-sdk`
 
 ``` ruby
